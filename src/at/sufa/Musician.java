@@ -14,8 +14,10 @@ public class Musician {
     public String getName() {
         return name;
     }
-
-    public void playSong(){
+    public int getAge(){
+        return age;
+    }
+    public  void playSong(){
         System.out.println("I´m playing a song");
     }
 }

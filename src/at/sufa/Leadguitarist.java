@@ -7,6 +7,6 @@ public class Leadguitarist extends Musician {
 
     @Override
     public void playSong() {
-        System.out.println("I am " + getName() +" and I play the leadguitar!");
+        System.out.println("I am " + getName() + " ,I´m " + getAge() + " years old and I play the leadguitar!");
     }
 }
