@@ -7,8 +7,8 @@ public class Stage {
     public static void main(String[] args) {
 
         Band myBand = new Band("ThunderBOOM", "Rock", "Highway To Hell",
-                "Master Of Puppets","Hate To Say I Told You So",
-                "Bohemian Rapsody ","Brianstorm");
+                "Master Of Puppets","House Of The Rising Sun",
+                "Bohemian Rapsody ","Come Together");
         Singer singer = new Singer("Anton", 63, myBand);
         Bassplayer bassplayer = new Bassplayer("Herbert", 72, myBand);
         Drummer drummer = new Drummer("Peter", 89, myBand);
