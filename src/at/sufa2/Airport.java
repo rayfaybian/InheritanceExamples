@@ -9,7 +9,7 @@ public class Airport {
         CargoPlane antonovA400 = new CargoPlane(Plane.KIND.CARGOPLANE,
                 "US4587",129480,620000,725000);
 
-        PassengerPlane airbusA320 = new PassengerPlane(Plane.KIND.AIRLINER,"DE9675",50000,
+        Airliner airbusA320 = new Airliner(Plane.KIND.AIRLINER,"DE9675",50000,
                 78000,30190,150);
 
 
