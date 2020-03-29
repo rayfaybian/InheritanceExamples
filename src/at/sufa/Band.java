@@ -8,6 +8,7 @@ public class Band {
     private String genre;
     String[] songs;
 
+
     public Band(String name, String genre, String song1, String song2, String song3, String song4, String song5) {
         this.name = name;
         this.genre = genre;

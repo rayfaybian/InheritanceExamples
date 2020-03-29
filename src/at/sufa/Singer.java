@@ -6,7 +6,6 @@ public class Singer extends Musician {
     }
 
 
-
     @Override
     public void playSong() {
         System.out.println("I am " + getName() + " ,I´m " + getAge() + " years old and I sing the lyrics!");

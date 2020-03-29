@@ -6,7 +6,6 @@ public class Stage {
 
     public static void main(String[] args) {
 
-
         Band myBand = new Band("ThunderBOOM", "Rock", "Highway To Hell",
                 "Master Of Puppets","Hate To Say I Told You So",
                 "Bohemian Rapsody ","Brianstorm");
