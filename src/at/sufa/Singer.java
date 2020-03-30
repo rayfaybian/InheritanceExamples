@@ -1,13 +1,13 @@
 package at.sufa;
 
 public class Singer extends Musician {
-    public Singer(String name, int age, Band band) {
-        super(name, age, band);
+    public Singer(String name, int age) {
+        super(name, age);
     }
 
 
     @Override
-    public void playSong() {
-        System.out.println("I am " + getName() + " ,I´m " + getAge() + " years old and I sing the lyrics!");
+    public void play() {
+        System.out.println("I'm " + getName() + " ,I'm " + getAge() + " years old and I sing 'lalalala'");
     }
 }

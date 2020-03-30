@@ -3,22 +3,22 @@ package at.sufa;
 public class Musician {
     private String name;
     private int age;
-    private Band band;
 
 
-    public Musician(String name, int age, Band band){
+    public Musician(String name, int age) {
         this.name = name;
         this.age = age;
-        this.band = band;
     }
 
     public String getName() {
         return name;
     }
-    public int getAge(){
+
+    public int getAge() {
         return age;
     }
-    public  void playSong(){
+
+    public void play() {
         System.out.println("I´m playing a song");
     }
 }

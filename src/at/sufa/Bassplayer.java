@@ -1,13 +1,13 @@
 package at.sufa;
 
 public class Bassplayer extends Musician {
-    public Bassplayer(String name, int age, Band band) {
-        super(name, age, band);
+    public Bassplayer(String name, int age) {
+        super(name, age);
     }
 
 
     @Override
-    public void playSong() {
-        System.out.println("I am " + getName() + " ,I´m " + getAge() + " years old and I play the bassguitar!");
+    public void play() {
+        System.out.println("I'm " + getName() + " ,I'm " + getAge() + " years old and I slap the bass strings!");
     }
 }

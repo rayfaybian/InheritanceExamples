@@ -1,13 +1,13 @@
 package at.sufa;
 
 public class Drummer extends Musician {
-    public Drummer(String name, int age, Band band) {
-        super(name, age, band);
+    public Drummer(String name, int age) {
+        super(name, age);
     }
 
 
     @Override
-    public void playSong() {
-        System.out.println("I am " + getName() + " ,I´m " + getAge() + " years old and I play the drums!");
+    public void play() {
+        System.out.println("I'm " + getName() + " ,I'm " + getAge() + " years old and I hit the drums!");
     }
 }
