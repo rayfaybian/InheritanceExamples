@@ -115,7 +115,8 @@ public class LaendleCheckingAccount extends StandardAccount {
         System.out.println("\nCredit Balance: €" +
                 String.format("%.2f", -(getCreditFrame() - credit.getAccountBalance())) +
                 "\nInterest: €" + String.format("%.2f", - credit.getInterest()));
-        System.out.println("\nPaying off €" + String.format("%.2f",creditCost));
+        //System.out.println("\nPaying off €" + String.format("%.2f",creditCost));
+        System.out.printf("\nPaying off €%.2f",creditCost);
         System.out.print("\nStatus: ");
         if (getAvailableBalance() >= creditCost) {
             setAccountBalance(getAccountBalance() - creditCost);
