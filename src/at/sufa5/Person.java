@@ -11,11 +11,12 @@ public class Person {
         this.age = age;
     }
 
-    public void sayHello(){
-        System.out.println("Hello!");
+    public String getName(){
+        return firstName + " " + lastName;
     }
 
-    public void introduceYourself(){
-        System.out.println("My name is " + firstName + " " + lastName +" and I´m " + age + " years old.");
+    public int getAge(){
+        return age;
     }
+
 }
